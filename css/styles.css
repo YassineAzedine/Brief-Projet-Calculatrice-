@@ -1,0 +1,30 @@
+#memoire{
+    top: 5px;
+    left: 20px;
+    display: none;
+    
+}
+
+body {
+    background-image: radial-gradient(red, yellow);
+  
+
+  
+  }
+  .ss{
+  
+     
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+     
+  }
+  @media screen and (max-width: 600px) {
+    .ss {
+
+        transform: translate(-41%, -50%);
+    }
+  }
